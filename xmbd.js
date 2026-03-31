@@ -10,7 +10,7 @@
 使用声明：此脚本仅供学习与交流，请在下载使用24小时内删除！请勿在中国大陆转载与贩卖！
 *******************************
 [rewrite_local]
-^https?:\/\/wx-bingdu\.lanfeitech\.com\/api\/archive\/get url script-response-body 这里填你的脚本地址
+^https?:\/\/wx-bingdu\.lanfeitech\.com\/api\/archive\/get url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/xmbd.js
 
 [mitm]
 hostname = wx-bingdu.lanfeitech.com
